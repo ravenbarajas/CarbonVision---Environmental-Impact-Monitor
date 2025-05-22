@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 20% 98%; /* #F5F8FA */
+  --foreground: 225 8% 11%; /* #232429 */
+  --muted: 220 14.3% 95.9%; /* #EEF1F6 */
+  --muted-foreground: 230 4% 55%; /* #86898E */
+  --popover: 0 0% 100%;
+  --popover-foreground: 225 8% 11%;
+  --card: 0 0% 100%;
+  --card-foreground: 225 8% 11%;
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --primary: 122 39% 35%; /* #2E7D32 */
+  --primary-foreground: 144 60% 98%;
+  --secondary: 207 90% 54%; /* #1976D2 */
+  --secondary-foreground: 210 40% 98%;
+  --accent: 126 39% 40%; /* #3D8C40 */
+  --accent-foreground: 144 60% 98%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 122 39% 35%;
+  --radius: 0.5rem;
+  
+  /* Chart colors */
+  --chart-1: 207 90% 54%; /* #1976D2 */
+  --chart-2: 45 100% 60%; /* #FFC107 */
+  --chart-3: 126 39% 40%; /* #689F38 */
+  --chart-4: 0 65% 60%; /* #F44336 */
+  --chart-5: 280 50% 60%; /* #9C27B0 */
+  
+  /* Sidebar colors */
+  --sidebar-background: 0 0% 100%;
+  --sidebar-foreground: 225 8% 11%;
+  --sidebar-primary: 122 39% 35%;
+  --sidebar-primary-foreground: 144 60% 98%;
+  --sidebar-accent: 126 39% 40%;
+  --sidebar-accent-foreground: 144 60% 98%;
+  --sidebar-border: 220 13% 91%;
+  --sidebar-ring: 122 39% 35%;
+}
+
+.dark {
+  --background: 225 8% 11%;
+  --foreground: 210 20% 98%;
+  --muted: 223 6% 25%;
+  --muted-foreground: 215 5% 65%;
+  --popover: 225 8% 11%;
+  --popover-foreground: 210 20% 98%;
+  --card: 223 6% 18%;
+  --card-foreground: 210 20% 98%;
+  --border: 223 6% 25%;
+  --input: 223 6% 25%;
+  --primary: 122 39% 35%;
+  --primary-foreground: 144 60% 98%;
+  --secondary: 207 90% 54%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 126 39% 40%;
+  --accent-foreground: 144 60% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 126 39% 40%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
