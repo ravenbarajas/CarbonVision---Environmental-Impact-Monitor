@@ -1,0 +1,149 @@
+Here’s a Product Requirements Document (PRD) for a **Frontend Environmental Impact Monitor** designed to **calculate and visualize carbon footprint data**.
+
+---
+
+# **Product Requirements Document (PRD)**
+
+### **Product Name:**
+
+Environmental Impact Monitor (Frontend)
+
+### **Prepared By:**
+
+\[Your Name / Team]
+**Date:** May 22, 2025
+
+---
+
+## **1. Purpose**
+
+To develop a frontend web application that enables users to input activities or consumption data and receive an intuitive, visualized representation of their carbon footprint. The platform aims to increase awareness of environmental impacts and encourage sustainable behavior through actionable insights and engaging UI/UX.
+
+---
+
+## **2. Scope**
+
+This PRD covers the **frontend** component of the Environmental Impact Monitor. It will interface with an existing or planned backend API responsible for calculations and data storage.
+
+---
+
+## **3. Objectives**
+
+* Provide an intuitive UI for users to input their lifestyle and consumption data.
+* Display real-time or on-demand calculations of users' carbon footprint.
+* Visualize data with interactive charts and dashboards.
+* Enable comparisons over time and against benchmarks (e.g., national average).
+* Offer tips or suggestions to reduce environmental impact.
+
+---
+
+## **4. Features**
+
+### 4.1 **User Input Interface**
+
+* **Forms for Activity Data**:
+
+  * Transport (car, flight, bike, public transport)
+  * Energy usage (electricity, gas, solar)
+  * Diet (meat consumption, vegetarian, vegan)
+  * Shopping (electronics, clothing, etc.)
+* **Smart Defaults** based on user profile or geolocation
+
+### 4.2 **Data Visualization**
+
+* **Carbon Footprint Dashboard**
+
+  * Total CO2e emissions
+  * Emissions breakdown by category
+  * Weekly/monthly/yearly trends
+* **Graphs and Charts**
+
+  * Pie chart for category distribution
+  * Line chart for emissions over time
+  * Bar chart comparing user vs. average
+
+### 4.3 **Interactive Features**
+
+* Hover and tooltip data explanations
+* Dynamic filtering by time period or category
+* Personalized reduction tips or challenges
+
+### 4.4 **User Profiles (Optional for MVP)**
+
+* Save and retrieve data via login
+* Track progress over time
+* Compare with peers or regional averages
+
+### 4.5 **Accessibility and Responsiveness**
+
+* Fully responsive for mobile, tablet, desktop
+* High contrast mode and screen reader compatibility
+
+---
+
+## **5. Assumptions**
+
+* Backend API is available and provides:
+
+  * Carbon footprint calculations
+  * Emission factors and datasets
+  * User data persistence
+* Users will have internet access and modern browsers
+
+---
+
+## **6. Design Requirements**
+
+### 6.1 **Technology Stack**
+
+* Framework: React or Vue.js
+* Charting Library: Chart.js or D3.js
+* Styling: Tailwind CSS or Material UI
+* State Management: Redux, Vuex, or Context API
+
+### 6.2 **Wireframes and Mockups**
+
+(To be provided separately. Should include sample dashboards and form layouts.)
+
+---
+
+## **7. Success Metrics**
+
+* **Adoption Rate:** % of users who complete at least one full carbon assessment
+* **Engagement:** Average session time, return rate
+* **Accuracy Feedback:** % of users rating insights as "accurate" or "helpful"
+* **Reduction Participation:** % of users who act on reduction tips
+
+---
+
+## **8. Timeline**
+
+| Phase                    | Duration | Deliverables                        |
+| ------------------------ | -------- | ----------------------------------- |
+| Requirement Finalization | 1 week   | Signed-off PRD                      |
+| Design + Prototyping     | 2 weeks  | High-fidelity wireframes            |
+| Frontend Development     | 4 weeks  | Working frontend with mock data     |
+| Integration & QA         | 2 weeks  | Fully integrated and tested product |
+| Launch                   | 1 week   | MVP Release                         |
+
+---
+
+## **9. Risks & Mitigations**
+
+| Risk                                     | Mitigation                                 |
+| ---------------------------------------- | ------------------------------------------ |
+| Backend API delays or instability        | Use mock API / stubs for development       |
+| Misinterpretation of data visualizations | UX testing and clear legends/tooltips      |
+| User overwhelm due to too many options   | Progressive disclosure and onboarding help |
+
+---
+
+## **10. Appendix**
+
+* References to emissions datasets (e.g., IPCC, EPA)
+* Sample API schema (if available)
+* User journey maps (if applicable)
+
+---
+
+Would you like me to include sample wireframes or a visual sitemap?
